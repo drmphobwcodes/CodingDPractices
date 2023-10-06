@@ -1,6 +1,8 @@
 package Day1ArrayString;
 
 import java.util.Stack;
+import java.util.Arrays;
+import java.util.EmptyStackException;
 
 public class StackPopPushTopOperations {
     public static void main(String[] args) {
@@ -11,17 +13,17 @@ public class StackPopPushTopOperations {
         stack.push(40);
         stack.push(50);
 
-        System.out.println("Top element: " + stack.top());
+        System.out.println("Top element: " + stack.peek());
         System.out.println("Popped element: " + stack.pop());
-        System.out.println("Top element: " + stack.top());
+        System.out.println("Top element: " + stack.peek());
         System.out.println("Popped element: " + stack.pop());
-        System.out.println("Top element: " + stack.top());
+        System.out.println("Top element: " + stack.peek());
         System.out.println("Popped element: " + stack.pop());
-        System.out.println("Top element: " + stack.top());
+        System.out.println("Top element: " + stack.peek());
         System.out.println("Popped element: " + stack.pop());
-        System.out.println("Top element: " + stack.top());
+        System.out.println("Top element: " + stack.peek());
         System.out.println("Popped element: " + stack.pop());
-        System.out.println("Top element: " + stack.top());
+        System.out.println("Top element: " + stack.peek());
         System.out.println("Popped element: " + stack.pop());
     }
 }
